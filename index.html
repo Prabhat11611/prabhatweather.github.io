@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to the Weather Forecasting System</h1>
+    <div class="container">
+        <header>
+            <h>Weather App</h>
+        </header>
+        <main>
+            <input type="text" id="city-name" placeholder="Enter city name">
+            <button type="button" id="get-weather">Get Weather</button>
+            <div class="weather-info">
+                <h2 id="city" onclick="addWikipediaLink()"></h2>
+                <h3 id="temperature"></h3>
+                <h4 id="weather-description">
+                    </h3>
+                    <img id="weather-icon" src="cloudy.png">
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
